@@ -84,8 +84,8 @@ __IMPORTANTE__: Para las funcionalidades de filtrado y ordenamiento NO pueden ut
 ### Únicos Endpoints/Flags que pueden utilizar
 
 - GET <https://api.thedogapi.com/v1/breeds>
-- GET <https://api.thedogapi.com/v1/breeds/search?q={raza_perro}>
-
+- GET 
+https://api.thedogapi.com/v1/breeds/search?q={raza_perro}>
 ### Requerimientos mínimos
 
 A continuación se detallaran los requerimientos mínimos para la aprobación del proyecto individial. Aquellos que deseen agregar más funcionalidades podrán hacerlo. En cuanto al diseño visual no va a haber wireframes ni prototipos prefijados sino que tendrán libertad de hacerlo a su gusto pero tienen que aplicar los conocimientos de estilos vistos en el curso para que quede agradable a la vista.

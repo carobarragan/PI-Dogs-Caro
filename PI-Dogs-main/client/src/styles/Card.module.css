@@ -1,0 +1,309 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 440px;
+  height: auto;
+  line-height: normal;
+  margin: 0;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  border-radius: 15px;
+  background: grey;
+  animation: fadeIn 2s;
+  box-shadow: 10px 12px 10px black;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.dogInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  vertical-align: middle;
+  align-content: center;
+  width: 00px;
+  height: auto;
+  object-fit: cover;
+  transition-duration: 0.5s;
+  display: block;
+  margin: cover;
+}
+
+.image:hover {
+  box-shadow: 10px 10px 15px 2px black;
+}
+
+.name {
+  text-align: center;
+  color: black;
+  font-size: medium;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.weight {
+  font-style: oblique;
+  text-align: end;
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+  text-transform: capitalize;
+}
+
+.temperament {
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  color: black;
+}
+
+.temperament p {
+  margin: 0.2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.life {
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  color: black;
+}
+
+/* .div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 460px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  background-color: blanchedalmond;
+  animation: fadeIn 2s;
+  box-shadow: 10px 12px 10px black;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.img {
+  align-content: center;
+  width: 200px;
+  height: 170px;
+  object-fit: cover;
+  transition-duration: 0.5s;
+  /* display: flex;
+  width: 100%;
+  border-radius: 5px; */
+
+/* .image:hover {
+  box-shadow: 10px 10px 15px 2px black;
+}
+
+.divTemperamento {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  color: black;
+}
+.dogInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-style: oblique;
+}
+.weight {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+} */
+
+/* .container {
+
+.div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 460px;
+    border: 2px solid rgba(218, 117, 173, 0.589);
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background-color: rgba(141, 47, 146, 0.556);
+}
+
+.img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.divTemperamento {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+
+
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 340px;
+  height: 365px;
+  place-content: center;
+  place-items: center;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #053f5c, #4b769e);
+  animation: fadeIn 2s;
+  box-shadow: 10px 12px 10px black;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.dogInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.imagen {
+  align-content: center;
+  width: 200px;
+  height: 170px;
+  object-fit: cover;
+  transition-duration: 0.5s;
+}
+.image:hover {
+  box-shadow: 10px 10px 15px 2px black;
+}
+.weight {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.temperamento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+} */
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 340px;
+  height: 365px;
+  place-content: center;
+  place-items: center; */
+/* border: 2px solid rgba(218, 117, 173, 0.589); */
+/* border-radius: 5px; */
+/* margin: 1rem; */
+/* padding: 0.5rem; */
+/* box-sizing: border-box; */
+/* background-color: rgba(141, 47, 146, 0.556); */
+/* background: lemonchiffon;
+  animation: fadeIn 2s;
+  box-shadow: 10px 12px 10px black;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.div:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 6px 7px 8px 3px rgba(255, 255, 255, 0.7);
+}
+.dogInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  text-align: center;
+}
+
+.imagen {
+  align-content: center;
+  width: 150%;
+  border-radius: 5px;
+  object-fit: cover;
+  transition-duration: 0.5s;
+}
+.imagen:hover {
+  box-shadow: 10px 10px 15px black;
+}
+.temperamento {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(25, 1, 25);
+  margin-bottom: 3rem;
+  text-align: center;
+  font-style: oblique;
+} */

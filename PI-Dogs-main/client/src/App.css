@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  height: 200vh;
+  /* background-image: url("https://img.freepik.com/foto-gratis/labrador-retriever_95678-27.jpg?w=2000"); */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .App-logo {
