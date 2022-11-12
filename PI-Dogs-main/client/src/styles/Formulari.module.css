@@ -1,0 +1,78 @@
+.container {
+  background-image: url("https://www.animalhome.com.mx/wp-content/uploads/2019/11/gastroenteritis-en-perros.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.grouping {
+  display: flex;
+  flex-direction: column;
+}
+
+.grouping label {
+  font-size: 1.25rem;
+}
+
+.grouping select {
+  background-color: hsl(204, 51%, 89%, 0.9);
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 5px;
+  outline: none;
+}
+
+.grouping input:focus {
+  box-shadow: 0 0 0 2px #f27f0c;
+}
+
+.btns {
+  font-size: 15rem;
+  font-weight: lighter;
+  width: 100%;
+  height: 200px;
+  margin: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-emphasis: none;
+}
+
+.okBtn {
+  width: 84%;
+  height: 20%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMUGJOuh5YV0kUXgP24nqMfnOQIL3e8ViV3g&usqp=CAU");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  font-family: "Lobster", cursive;
+  cursor: pointer;
+  background-color: #e1c699;
+  margin-top: 10vh;
+  margin-left: 13vw;
+}
+/* font-size: 1.5rem;
+  margin: 180px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none; */
+
+.okBtn:hover {
+  background-color: green;
+  transition: 0.5s;
+}
